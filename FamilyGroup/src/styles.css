@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');  
+/*@import 'node_modules/font-awesome/css/font-awesome.css';*/
+/*@import '~@angular/material/prebuilt-themes/indigo-pink.css';*/
+
+/*@import '~@angular/material/prebuilt-themes/indigo-pink.css';*/
+
+.fillcolor{
+	background-color: black;
+}
+
+  .logoheight {
+  	height: 44px;
+
+	}
+.fade.modal {
+  opacity: 1 !important;
+}
+
+
+/*modal animation*/
+
+.modal-dialog {
+	top: 174px;
+	
+}
+
+
+
+
+.modal {
+  top: 170px;
+  animation: ease-in-out .3s;
+ 
+  &.show {
+    top: 175px;
+  }
+
+ 
+
+    .modal-body {
+    &:focus {
+      outline: none;
+    }
+  }
+
+}
+
+	 .modal-content {
+  background: repeating-linear-gradient(45deg, rgba(0,0,0,.075), transparent 100px);
+ 	}

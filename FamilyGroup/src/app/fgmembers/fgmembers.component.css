@@ -1,0 +1,11 @@
+.btn-style {
+	font-size: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: darkcyan;
+}
+
+.btn-padding {
+	float: right;
+    margin-right: 25px;
+}

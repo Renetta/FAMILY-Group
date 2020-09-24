@@ -1,0 +1,26 @@
+
+.content {
+  margin-top: 100px;
+}
+.headingstyle {
+	font-family: cursive;
+    color: floralwhite;
+    border-bottom: double;
+}
+.quotestyle {
+	font-family: cursive;
+    color: black;
+    margin-top: 15px;
+
+}
+
+.body-only {
+	margin-top: -22px;
+  background-image: url("src/assets/image/family-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding-style {
+	padding-top: 20px;
+}

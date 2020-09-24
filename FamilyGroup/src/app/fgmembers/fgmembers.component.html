@@ -1,0 +1,26 @@
+<div class="btn-padding">
+	<!-- <button type="button" class="btn btn-primary btn-lg btn-style" (click) = "addMemberModal()">ADD MEMBER <span class="glyphicon glyphicon-plus"></span></button> -->
+	<button type="button" class="btn btn-primary btn-lg btn-style" (click) = "addMemberModal('create')">ADD MEMBER <span class="glyphicon glyphicon-plus"></span></button>
+</div>
+
+<app-create-member *ngIf="showCreateMemberPanel"></app-create-member>
+<br><br><br><br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 col-md-4" *ngFor="let mem of members">
+			<div class="thumbnail">
+				<img src="">
+				<button type="button" class="btn btn-default" (click) = "destroyMember(mem)">
+					<span class="glyphicon glyphicon-remove-circle"></span>
+				</button>
+				<div class="caption">
+					<h4>Name: {{mem.fname + mem.lname}}</h4>
+					<hr>
+					<h6>Phone: {{mem.phone}}</h6>
+					<h6>Email: {{mem.email}}</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

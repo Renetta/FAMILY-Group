@@ -1,0 +1,27 @@
+
+<div style="padding-top: 2px;">
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">
+				<img alt="Brand" src="https://www.famlu.com/sites/default/files/family-websites-famlu-logo.png" height="43">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-item nav-link">
+	    			<a [routerLink]="['/Family-Group/Family-Group-Home']" fragment="family-group-home" class="color-me"><span class="glyphicon glyphicon-home icon-padding" area-hidden="true" ></span>Home</a>
+	    		</li>
+	    		<li class="nav-item nav-link">
+	    			<a [routerLink]="['/Family-Group/Family-Group-Members']" [queryParams]="{debug: true}" fragment="family-group-members-details" class="color-me"><span class="glyphicon glyphicon-user icon-padding" area-hidden="true" ></span>Members</a>
+	    		</li>
+	    		<li class="nav-item nav-link">
+	    			<a [routerLink]="['/Family-Group/expense-chart']" [queryParams]="{debug: true}" fragment="family-group-expense-sensus" class="color-me"><span class="glyphicon glyphicon-signal icon-padding" area-hidden="true" ></span>Expense Chart</a>
+	    		</li>
+	    		<li>
+	    			<a>SignIn</a>
+	    		</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<router-outlet></router-outlet>

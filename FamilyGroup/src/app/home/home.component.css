@@ -1,0 +1,24 @@
+.home-background {
+	background-image: url("src/assets/image/family-home.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.fitting {
+	margin-right: 700px;
+}
+
+.icon-padding {
+	padding-right: 5px;
+
+}
+
+.li-font{
+	font-family: serif;
+	font-weight: 900;
+}
+
+.color-me{
+	color: white;
+}
+
